@@ -8,7 +8,7 @@
 
 first_word = input("Enter your first word or sentence: ")
 second_word = input("Enter your second word or sentence: ")
-def find_anagram(first, secon):
+def find_anagram(first_word, second_word):
     if len(first_word) == len(second_word) and sorted(first_word) == sorted(second_word):
         return True
     else:
